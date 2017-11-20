@@ -1,0 +1,43 @@
+body {
+    color: #6cacc5;
+    text-align: center;
+    width: 78%;
+    margin: 10% auto;
+    background: #100a1c;
+}
+
+h1,h2,h3 {
+    color: #fff;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    border: 0;
+    background-color: #201e40;
+    color: #6cacc5;
+    cursor: pointer;
+    font: inherit;
+    height: 1.5em;
+    margin: 0.25em;
+    font-size: 22px;
+}
+
+.tableButton {
+    background:#17a928;
+    color:#ffffff;
+    width: 150px;
+    height: 45px;
+    font-size:23px;
+    cursor: pointer;
+    outline:none;
+    border-radius: 5px;
+    border-bottom:3px solid #1f7a29;
+}
+
+.displayTable{
+    color: #fff;
+}

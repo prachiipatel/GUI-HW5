@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="hw5.css">
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="my_jquery.js"></script>
+        <script src="https://jqueryvalidation.org/files/lib/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+        <title>Auto Loan Calculator</title>
+    </head>
+    
+    <body>
+        <h1>COMP 4610 GUI I</h1>
+        <br/>
+        <h2>Assignment No. 4</h2>
+        <h3>Creating Interactive Dynamic Table</h3><br/><br/>
+        
+        <p> 
+            Miles driven per year: 
+            <input type="number" class="input" id="milesPerYear" value="0"> <br/>
+            
+            Current price of gas per gallon: 
+            <input type="number" class="input" id="priceGallon" value="0"> <br/>
+            
+            Months:
+            <input type="number" class="input" id="months" value="0"> <br/>
+        </p>
+        <p>
+            How many price purchasing number you goning to enter?: 
+            <input type="number" class="input" id="priceNum" value="0"> 
+            <button onclick="priceFields()">Next</button> 
+        </p>
+            
+        <div id="priceContainer"></div>
+        <div id="name"></div>
+        
+        <p>  
+            How many mpg (Mile Per Gallon) you going to compare?: 
+            <input type="number" class="input" id="mpgNum" value="0"> 
+            <button onclick="mpgFields()">Next</button>
+        </p>
+        
+        <div id="mpgContainer"></div>
+        
+        <br/><br/>
+        <button class="tableButton" onclick="addTable()"> Create a table </button>  
+        <br/><br/>
+          
+        <div id="displayTable"></div>
+        
+        <script type="text/javascript" src="hw5.js"></script>          
+    </body>
+</html>
